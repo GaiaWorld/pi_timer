@@ -1,0 +1,13 @@
+[package]
+name = "pi_timer"
+version = "0.1.0"
+authors = ["suncy <suncy@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pi_ext_heap = {path="../pi_ext_heap"}
+pi_wheel = {path="../pi_wheel"}
+
+[dev-dependencies]
+pcg_rand = "0.13"
+rand_core = "0.6"
