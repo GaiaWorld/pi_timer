@@ -1,12 +1,17 @@
 [package]
 name = "pi_timer"
 version = "0.1.0"
-authors = ["suncy <suncy@gmail.com>"]
-edition = "2018"
+authors = ["zmythleo <zmythleo@gmail.com>"]
+edition = "2021"
+description = "Irrevocable timer"
+repository = "https://github.com/GaiaWorld/pi_timer.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "timer", "pi_timer"]
+
 
 [dependencies]
-pi_ext_heap = {path="../pi_ext_heap"}
-pi_wheel = {path="../pi_wheel"}
+pi_ext_heap = "0.1"
+pi_wheel = "0.1"
 
 [dev-dependencies]
 pcg_rand = "0.13"

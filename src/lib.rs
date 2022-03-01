@@ -2,8 +2,8 @@
 
 use std::{cmp::Reverse, fmt};
 
-use ext_heap::{empty as heap_empty, ExtHeap};
-use wheel::{TimeoutItem, Wheel};
+use pi_ext_heap::{empty as heap_empty, ExtHeap};
+use pi_wheel::{TimeoutItem, Wheel};
 
 /// 不可撤销的定时器
 pub struct Timer<T, const N0: usize, const N: usize, const L: usize> {
